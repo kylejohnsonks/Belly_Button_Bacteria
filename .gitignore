@@ -113,3 +113,21 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+SkillDrill/index.html
+SkillDrill/plots.js
+SkillDrill/samples.json
+12_2_2/indexSpacex.html
+12_2_2/spaceX.js
+12_3_2/app.js
+12_3_2/index.html
+12_3_2/samples.json
+12_4_1/index.html
+12_4_1/script.js
+12_4_2/index.html
+12_4_2/plots.js
+12_4_3/index.html
+12_4_3/plots.js
+12_4_3/samples.json
+practice/index.html
+practice/plots.js
+practice/practice.js
