@@ -7,12 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="static/css/style.css">  
+  <link rel="stylesheet" href="Static/css/style.css">  
 </head>
 
 <body>
-
   <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#bar">Bar</a>
+      <a class="navbar-brand" href="#gauge">Gauge</a>
+      <a class="navbar-brand" href="#bubble">Bubble</a>
+    </nav>
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
@@ -34,18 +38,23 @@
         </div>
       </div>
       <div class="col-md-5">
+        <h3>About this page:</h3><br>
+        <p>Use the drop down list on the left to select individual test subjects.  Demographic information about the subject will appear in the panel to the left.  The top 10 bacteria found will be displayed at the right.  Belly button wash frequency and a bubble chart of bacteria will appear below.</p>
+      </div>
+      <div class="col-md-5">
         <div id="bar"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <div id="bubble"></div>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
   </div>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
