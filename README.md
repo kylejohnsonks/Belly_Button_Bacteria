@@ -9,3 +9,10 @@ The page includes:
 - Horizontal bar graph of 10 top bacteria
 - Bubble chart of all bacteria
 - Gauge showing wash frequency
+
+# Tools used
+- js
+- html
+- plotly
+- bootstrap
+- d3
